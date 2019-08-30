@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 100px;
-	background-color:black;
+	background-image: url("../images/wow.gif");
 }
 
 a {
@@ -13,12 +13,10 @@ a {
 /* EXAMPLE CODE PLEASE REMOVE */
 
 .title {
-	font-family:courier;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: blue;
 	text-align: center;
-	background-image: linear-gradient(yellow , red);
 	
 }
 
@@ -27,26 +25,35 @@ a {
 	margin: 20px;
 }
 
-.title:hover {
-	background-image: linear-gradient(red, yellow);
-}
-
 .bio {
 	font-size: 32px;
-	font-family:courier;
+	color: white;
+	font-family: courier new;
 	text-align: center;
 	padding-top:40px;
 	padding-bottom:40px;
-	background-image: linear-gradient(red, yellow);
+	background-color: black;
+	margin: 20px;
 }
 
-.bio:hover {
-	background-image: linear-gradient(yellow, red);
+.bio span {
+	color: white;
+	background-color: black;
+}
+
+.bio a {
+	text-decoration: none;
+	color: white;
+	background-color:black;
+}
+
+.bio a:hover {
+	text-decoration: underline;
 }
 
 .bitmoji {
 	width: 800px;
-	margin: auto;
+	margin: auto; 
 }
 
 .bitmoji:hover {
