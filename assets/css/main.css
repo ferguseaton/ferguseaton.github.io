@@ -1,0 +1,179 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 100px;
+	background-color:black;
+}
+
+a {
+	color:red;
+}
+
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
+/* EXAMPLE CODE PLEASE REMOVE */
+
+.title {
+	font-family:courier;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: blue;
+	text-align: center;
+	background-image: linear-gradient(yellow , red);
+	
+}
+
+.background {
+	background-color: black;
+	margin: 20px;
+}
+
+.title:hover {
+	background-image: linear-gradient(red, yellow);
+}
+
+.bio {
+	font-size: 32px;
+	font-family:courier;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom:40px;
+	background-image: linear-gradient(red, yellow);
+}
+
+.bio:hover {
+	background-image: linear-gradient(yellow, red);
+}
+
+.bitmoji {
+	width: 800px;
+	margin: auto;
+}
+
+.bitmoji:hover {
+	-webkit-filter: invert(100%) !important;
+}
+
+.bitmoji img {
+	width: 100%;
+}
+
+.main {
+	border: 2px solid black;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 500px;
+}
+
+.block {
+	display: inline-block;
+	padding: 20px;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+}
+
+.centerblock {
+	width: 500px;
+	margin: auto;
+}
+
+.centerblock img {
+	width: 100%;
+}
+
+.f {
+	color:red;
+}
+
+.f:hover {
+	color:green;
+}
+
+.e {
+	color:blue;
+}
+
+.e:hover {
+	color:orange;
+}
+
+.r {
+	color:purple;
+}
+
+.r:hover {
+	color:teal;
+}
+
+.g {
+	color:green;
+}
+
+.g:hover {
+	color:red;
+}
+
+.u {
+	color:orange;
+}
+
+.u:hover {
+	color:blue;
+}
+
+.s {
+	color:teal;
+}
+
+.s:hover {
+	color:purple;
+}
+
+.apo {
+	color:red;
+}
+
+.apo:hover {
+	color:green;
+}
+
+.h {
+	color:blue;
+}
+
+.h:hover {
+	color:orange;
+}
+
+.o {
+	color:purple;
+}
+
+.o:hover {
+	color:teal;
+}
+
+.m {
+	color:green;
+}
+
+.m:hover {
+	color:red;
+}
+
+.p {
+	color:orange;
+}
+
+.p:hover {
+	color:blue
+}
+
+.a {
+	color:red;
+}
+
+.a:hover {
+	color:green;
+}
