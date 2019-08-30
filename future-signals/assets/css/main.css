@@ -75,16 +75,6 @@ a {
 	font-size: 18px;
 }
 
-.static {
-	position: absolute;
-	width:100%;
-	background: white;
-}
-
-.static: hover {
-	opacity:0;
-}
-
 /*essay*/
 
 .essay {
@@ -139,7 +129,7 @@ a {
 	display: block;
 }
 
-.large {
+.on {
 	flex: 0 0 50%;
 	transition: 0.35s;
 	cursor: zoom-out;
@@ -147,4 +137,17 @@ a {
 
 .active {
 	background-color: darkgray;
+}
+
+img.gif {
+	display: none;
+	width:100%;
+}
+
+.research-item.on img.gif {
+	display: block;
+}
+
+.research-item.on img.thumb {
+	display: none;
 }

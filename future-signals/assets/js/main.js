@@ -2,8 +2,12 @@ $(document).ready(function(){
 	console.log("The page is ready!");
 
 	$('.research-item').click(function(){
-		$(this).toggleClass('large');
+		$(this).toggleClass('on');
 	});
+
+	$('.title').hover(function(){
+		$(this).toggleClass('on')
+	})
 
 	$('.nav-item').click(function(){
 		$('.nav-item').removeClass('active')
