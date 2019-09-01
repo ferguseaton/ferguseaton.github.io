@@ -127,10 +127,12 @@ a {
 
 .hide {
 	display: none;
+	transition: 1s;
 }
 
 .show {
 	display: block;
+	transition: 1s;
 }
 
 .on {
