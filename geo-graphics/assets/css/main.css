@@ -5,14 +5,20 @@ body {
 	color: white;
 }
 
-a {
-	color:red;
-}
-
 /*Index Homepage*/
 
+a {
+	text-decoration: none;
+	color: teal;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: cyan;
+}
+
 .index-intro {
-	font-size: 18px;
+	font-size: 25px;
 	margin-bottom: 25vh;
 	padding: 10px;
 }
@@ -24,6 +30,16 @@ a {
 	margin-bottom: 5px;
 	margin-top: 5px;
 	border-top: 2px solid white;
+}
+
+.index-row-header {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-top: 2px solid white;
+	text-decoration: underline;
 }
 
 .index-name {
@@ -55,6 +71,31 @@ a {
 	text-align: center;
 }
 
+.ip-text:hover {
+	text-decoration: line-through;
+}
+
+/*ip-2*/
+
+.ip2 {
+	background-color: cyan;
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ip2-text {
+	color: magenta;
+	font-size: 12vw;
+	text-align: center;
+}
+
+.ip2-text:hover {
+	text-decoration: line-through;
+}
+
 /*Checkers*/
 
 .checkers {
@@ -63,14 +104,18 @@ a {
 }
 
 .checkers-white {
-	width: 49vw;
-	height: 49vh;
+	width: 20vw;
+	height: 20vh;
+	font-size: 100px;
+	text-align: center;
+	color: black;
 	background-color: white;
 }
 
 .checkers-black {
-	width: 49vw;
-	height: 49vh;
+	width: 20vw;
+	height: 20vh;
+	color: black;
 	background-color: black;
 }
 
@@ -85,6 +130,7 @@ a {
 	position: fixed;
 	left: 0;
 	top: 0;
+	mix-blend-mode: difference;
 }
 
 .checkers-text {
@@ -93,6 +139,7 @@ a {
 	border: 30px solid magenta;
 	padding: 2vw;
 	border-radius: 5vw;
+	mix-blend-mode: difference;
 }
 
 /*Cloud Pattern*/
@@ -131,4 +178,57 @@ a {
 .text {
 	color: gray;
 	font-size: 5vw;
+}
+
+.string-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.string {
+	font-family: courier;
+}
+
+.cloud img {
+	animation: rotation 2s infinite linear;
+}
+
+.wifi-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.wifi img {
+	overflow: hidden;
+    animation : pulse 1s infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1);
+        opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    }
 }
