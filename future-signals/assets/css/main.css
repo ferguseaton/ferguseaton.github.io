@@ -21,7 +21,6 @@ a {
 	top: 0px;
 	left: 0px;
 	display: flex;
-	flex-wrap: wrap;
 	box-shadow:0 0 5px;
 }
 
