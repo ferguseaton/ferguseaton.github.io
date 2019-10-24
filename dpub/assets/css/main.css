@@ -1,0 +1,99 @@
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 100px;
+	background-color: black;
+}
+
+a {
+	color:red;
+}
+
+.heading h1 {
+	text-align: center;
+	font-size: 100px;
+	color: white;
+}
+
+.heading {
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: blue;
+	text-align: center;
+	
+}
+
+.background {
+	background-color: black;
+	margin: 20px;
+}
+
+.bio {
+	font-size: 32px;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: black;
+	margin: 20px;
+}
+
+.bio span {
+	color: white;
+	background-color: black;
+}
+
+.bio a {
+	padding:20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	background-color:black;
+}
+
+.bio a:hover {
+	color: white;
+	box-shadow: inset 0 0 0 5px white;
+	transition: 0.5s;
+}
+
+.bitmoji {
+	width: 800px;
+	margin: auto; 
+}
+
+.bitmoji img {
+	width: 100%;
+}
+
+.main {
+	border: 2px solid black;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 500px;
+}
+
+.block {
+	display: inline-block;
+	padding: 20px;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+}
+
+.centerblock {
+	width: 500px;
+	margin: auto;
+}
+
+.centerblock img {
+	width: 100%;
+}
+
+.footnote {
+	color: white;
+	font-size:20px;
+	text-align: center;
+}
