@@ -29,10 +29,11 @@ a {
 
 .nav-item a {
 	color: white;
-	font-size: 200px;
+	font-size: 100px;
 	text-align: center;
 }
 
 .nav-item a:hover {
-	text-decoration: line-through;
+	color: black;
+	background-color: white;
 }
