@@ -26,8 +26,15 @@ a {
 .nav {
 	display: flex;
 	flex-wrap:wrap;
-	border-bottom: 4px solid black;
+	border-bottom: 2px solid black;
 	border-top: 4px solid black;
+}
+
+.nav-2 {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 4px solid black;
+	border-top: 2px solid black;
 }
 
 .nav-item {

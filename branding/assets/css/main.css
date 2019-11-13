@@ -1,0 +1,57 @@
+body {
+	font-family: helvetica;	
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.logo {
+	flex: 0 0 25%;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.intro {
+	padding: 20px;
+}
+
+.assignment-info {
+	padding: 20px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.thumbnail {
+	flex: 0 0 50%;
+}
+
+.thumbnail-lrg {
+	padding: 10px;
+	flex: 0 0 100%;
+}
+
+.thumbnail-lrg img {
+	width: 100%;
+}
+
+.thumbnail-content {
+	padding: 10px;
+}
+
+.thumbnail img {
+	width:100%;
+}
