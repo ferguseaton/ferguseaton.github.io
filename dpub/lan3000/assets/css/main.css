@@ -94,6 +94,16 @@ a {
 	padding: 10px;
 }
 
+.intro a {
+	text-decoration: underline;
+}
+
+.outline {
+	padding: 5px;
+	background-color: lightgray;
+	text-align: center;
+}
+
 .table {
 	margin-top: 20px;
 	margin-bottom: 20px;
