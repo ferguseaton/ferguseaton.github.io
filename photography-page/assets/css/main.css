@@ -1,7 +1,11 @@
 body {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 90px;
-	background-color: white;
+	background-image: url("../images/B&W View A2.jpg");
+	background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 
 a {
@@ -16,8 +20,41 @@ body, html {
 }
 
 .header {
+	text-decoration: underline;
 	margin-top: 50px;
 	text-align: center;
+	padding-bottom : 50px;
+}
+
+.header a {
+	color: black;
+	font-size: 80px;
+	text-align: center;
+}
+
+.header a:hover {
+	color: black;
+	background-color: white;
+}
+
+.nav {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 50px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-item a {
+	color: black;
+	font-size: 80px;
+	text-align: center;
+}
+
+.nav-item a:hover {
+	color: black;
+	background-color: white;
 }
 
 .images {
