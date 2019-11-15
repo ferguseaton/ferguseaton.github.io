@@ -1,0 +1,173 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+img {
+	width:100%;
+	border:1px solid white;
+}
+
+/*img:hover {
+	box-shadow: 10px 10px 10px #666;
+	padding:10px;
+}
+
+* {
+	outline:1px solid red;
+}
+*/
+
+.buynow {
+	color:white;
+	text-decoration:none;
+}
+
+.youtube {
+	text-align:center;
+}
+
+.youtubelink {
+	font-size:25px;
+	font-family:lucida console;
+	color:white;
+	text-decoration:none;
+}
+
+.youtubelink:hover {
+	font-family:lucida console;
+	color:white;
+	background-color:black;
+	text-decoration:underline;
+}
+
+.buynow:hover {
+	color:white;
+	text-decoration:underline;
+}
+
+.examples .content {
+	border-radius: 80px;
+	text-align: center;
+}
+
+
+.masthead {
+  background-image:url("https://images.metmuseum.org/CRDImages/ad/original/ap67.187.138.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay {
+	
+}
+
+.overlay img {
+
+}
+
+.twopage .col {
+	height:100vh;
+	overflow:scroll;
+}
+
+.align-bottom {
+	
+}
+
+.justify-right {
+	
+}
+
+.align-center {
+	
+}
+
+.fours {
+	font-size:14px;
+}
+
+.offset-left {
+	margin-left:25%;
+}
+
+.sources a{
+	display: block;
+}
+
+.w-1of3 {
+	text-align:center; /*aligns the text in w-1of3 to center*/
+	background-color:black;
+	color:white;
+	font-family:courier;
+}
+
+/*
+.w-1of3:hover {
+	background-color:white;
+	color:black;
+	transition:0.25s;
+}
+*/
+
+.w-1of3-content {
+	background-color:white;
+}
+
+/*
+.w-1of3-content:hover {
+	background-color:lightgrey;
+}
+*/
+
+.w-1of6 {
+	text-align:left;
+	color:black;
+}
+
+.w-1of2 {
+	text-align:center; /*aligns the text in w-1of3 to center*/
+	background-color:black;
+	color:white;
+	font-family:courier;
+/*	overflow:scroll; */
+}
+
+.w-2of3 {
+	font-size:20px;
+/*	overflow:scroll; */
+	height:auto;
+}
+
+.title {
+	font-size:20px;
+	font-family:courier std;
+}
+
+.unknown {
+	color:black;
+	background-color:black;
+}
+
+.unknown:hover {
+	color:white;
+}
+
+.w-1of1 {
+	text-align:center; /*aligns the text in w-1of3 to center*/
+	background-color:black;
+	color:white;
+	font-family:courier;
+}
+
+.scplink {
+	color:black;
+	background-color:black;
+	text-decoration:none;
+}
+
+.scplink:hover {
+	color:white;
+}
