@@ -13,7 +13,7 @@ a {
 }
 
 .title {
-	font-size: 5vw;
+	font-size: 10vh;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -33,6 +33,7 @@ a {
 }
 
 .header {
+	font-size: 2.5vh;
 	text-decoration: underline;
 	margin-top: 100px;
 	text-align: center;
@@ -50,7 +51,7 @@ a {
 
 .nav-item a {
 	color: white;
-	font-size: 3vw;
+	font-size: 6vh;
 	text-align: center;
 }
 
@@ -60,6 +61,7 @@ a {
 }
 
 .text {
+	font-size: 2vh;
 	margin-left: 25vw;
 	margin-right: 25vw;
 	padding-top: 40px;
