@@ -13,7 +13,7 @@ a {
 }
 
 .title {
-	font-size: 120px;
+	font-size: 5vw;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -50,7 +50,7 @@ a {
 
 .nav-item a {
 	color: white;
-	font-size: 80px;
+	font-size: 3vw;
 	text-align: center;
 }
 
