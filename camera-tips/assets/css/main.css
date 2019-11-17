@@ -10,7 +10,7 @@ body {
   background-color: lightgray;
   position: fixed;
   width: 100%;
-  box-shadow: 5px 5px 5px darkgray;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .sidenav {
@@ -39,7 +39,7 @@ body {
 
 .sidenav a:hover{
   color: #f1f1f1;
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 .sidenav .closebtn {
@@ -73,6 +73,7 @@ body {
 }
 
 .text p {
+  text-align: center;
   font-size: 25px;
   padding: 30px;
   padding-top:100px;
@@ -81,6 +82,17 @@ body {
 .click {
   text-align: center;
   font-size: 20px;
+}
+
+.image {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.image img {
+  width: 50%;
 }
 
 .images {
@@ -92,6 +104,7 @@ body {
 }
 
 .img {
+  padding: 20px;
   flex: 0 0 50%;
 }
 

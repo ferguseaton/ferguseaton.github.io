@@ -1,0 +1,146 @@
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 32px;
+}
+
+a {
+	color: black;
+}
+
+.header {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.header a {
+	text-decoration: underline;
+}
+
+.header a:hover {
+	color: white;
+	background-color: black;
+}
+
+.header span {
+	text-decoration: none;
+}
+
+.nav {
+	display: flex;
+	flex-wrap:wrap;
+	border-bottom: 2px solid black;
+	border-top: 4px solid black;
+}
+
+.nav-2 {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 4px solid black;
+	border-top: 2px solid black;
+}
+
+.nav-item {
+	text-align: center;
+	flex: 0 0 25%;
+	border-right: 2px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-item a {
+	text-decoration: none;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+.nav-item-end {
+	text-align: center;
+	flex: 0 0 25%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-item-end a {
+	text-decoration: none;
+}
+
+.nav-item-end a:hover {
+	text-decoration: underline;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+}
+
+.nav-item-end:hover {
+	text-decoration: underline;
+}
+
+.heading {
+	padding-left: 10px;
+	margin-top: 15px;
+	text-decoration: underline;
+}
+
+.intro {
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.intro a {
+	text-decoration: underline;
+}
+
+.outline {
+	padding: 5px;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.table {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.row {
+	font-size: 22px;
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 4px solid black;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-title {
+	flex: 0 0 10%;
+}
+
+.image {
+	flex: 0 0 10%;
+}
+
+.image img {
+	width: 100%;
+}
+
+.title {
+	padding-left: 20px;
+	flex:0 0 40%;
+}
+
+.duration {
+	flex:0 0 25%;
+}
+
+.source {
+	flex:0 0 25%;
+}

@@ -12,9 +12,29 @@ a {
 	text-decoration: none;
 }
 
+.title {
+	font-size: 120px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.sub-title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.sub-title a {
+	text-decoration: none;
+}
+
+.sub-title a:hover {
+	color: black;
+	background-color: white;
+}
+
 .header {
 	text-decoration: underline;
-	margin-top: 50px;
+	margin-top: 100px;
 	text-align: center;
 	padding-bottom : 50px;
 }
@@ -37,4 +57,19 @@ a {
 .nav-item a:hover {
 	color: black;
 	background-color: white;
+}
+
+.text {
+	margin-left: 25vw;
+	margin-right: 25vw;
+	padding-top: 40px;
+}
+
+.text a {
+	text-decoration: underline;
+}
+
+.text a:hover {
+	background-color: white;
+	color: black;
 }
